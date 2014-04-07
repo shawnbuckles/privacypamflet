@@ -11,7 +11,7 @@
 }
 
 html {
-    background-color: #CCC;
+    background: #95a5a6;
 }
 
 html, body {
@@ -22,7 +22,7 @@ body {
     color: #222;
     font-family: Skolar, 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
     font-size: 24px;
-    line-height: 1.7em;
+    line-height: 1.5em;
 }
 
 /* ---------------------- */
@@ -37,7 +37,6 @@ h1, h2, h3 {
 
 h1 {
     font-size: 3.1em;
-    color: #BD0000;
 }
 
 h2 {
@@ -59,25 +58,20 @@ h4 {
 
 blockquote {
     font-family: skolar, 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
-    font-size: 2.5em;
+    font-size: 2em;
     line-height: 1em;
     letter-spacing: -0.05em;
     font-weight: normal;
-    text-align: center;
+    margin: 1em 0 .5em 0;
+    color: #c0392b
 }
 
 p {
     font-size: 1em;
-    margin-bottom: 40px;
 }
 
 a {
     color: #767362;
-}
-
-.nadruk {
-    border-bottom: solid .2em #036564;
-    padding-bottom: .06em;
 }
 
 /* ---------------------- */
@@ -108,95 +102,32 @@ section {
 /* sections */
 
 .aanhef {
-    background: #CCC;
-    padding: 4em 0 2em 0;
+    color: #34495e;
+    padding: 4em 0 1em 0;
 }
 
 .aanhef h1 {
     line-height: 1em;
-    color: #222;
+    color: #2c3e50;
     text-align: left;
     margin-bottom: 0px;
+    padding-top: .3em;
+    border-top: 15px #c0392b solid;
 }
 .aanhef h2 {
     margin-top: 0;
+    color: #2c3e50;
+    padding-bottom: .3em;
+    border-bottom: 15px #c0392b solid;
 }
 
 /* ---------------------- */
 
 .intro {
-    background: #f2f2f2;
     clear: both;
+    color: #2c3e50;
 }
-
-.intro h2 {
-    font-size: 4em;
-    margin-bottom: 0;
-}
-
-.intro h3 {
-    color: #036564;
-    margin: 2em 0 0 0;
-    font-size: 3em;
-}
-
-.intro blockquote {
-    color: #222;
-}
-
-/* ---------------------- */
-
-.conclusie {
-    clear: both;
-}
-
-/* ---------------------- */
-
-.binnen {
-    background: #036564;
-}
-
-.binnen h1 {
-    text-align: left;
-    line-height: .8em;
-    font-size: 4em;
-    color: #f2f2f2;
-}
-
-.binnen p {
-    color: #f2f2f2;
-    font-size: 1em;
-}
-
-/* ---------------------- */
-
-.daadwerkelijk {
-    background: #033649 url('../img/aanhef.png') no-repeat center 88%;
-}
-
-.daadwerkelijk blockquote {
-    line-height: 1.2em;
-    color: white;
-    padding: 60px 0 ;
-}
-
-/* ---------------------- */
-
-.proloog {
-    background: #f2f2f2;
-}
-
-/* ---------------------- */
-
-.einde h1 {
-    color: #033649;
-    text-align: left;
-    margin-top: 0;
-}
-
-/* ---------------------- */
-
-.footer {
-    background: #CCC;
-    color: #222;
+.intro .site-width {
+    background: #ecf0f1;
+    padding: 2em 0;
 }
