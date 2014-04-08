@@ -71,7 +71,10 @@ p {
 }
 
 a {
-    color: #767362;
+    color: #34495e;
+}
+a:hover {
+    color: #c0392b
 }
 
 /* ---------------------- */
@@ -79,7 +82,6 @@ a {
 /* lay-out */
 
 section {
-    padding: 2em 0;
 }
 
 .story-content {
@@ -130,4 +132,16 @@ section {
 .intro .site-width {
     background: #ecf0f1;
     padding: 2em 0;
+}
+
+.footer {
+    font-size: .8em;
+    padding-bottom: 2em;
+}
+.footer blockquote {
+    color: #34495e;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
 }
