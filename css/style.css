@@ -19,7 +19,6 @@ html, body {
 }
 
 body {
-    color: #222;
     font-family: Skolar, 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
     font-size: 24px;
     line-height: 1.5em;
@@ -67,7 +66,7 @@ blockquote {
 }
 
 p {
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 a {
@@ -125,19 +124,22 @@ section {
 
 /* ---------------------- */
 
-.intro {
+.content {
     clear: both;
     color: #2c3e50;
 }
-.intro .site-width {
+.content .site-width {
     background: #ecf0f1;
     padding: 2em 0;
+    box-shadow: 0px 0px 20px #7f8c8d;
 }
 
 .footer {
     margin-top: 4em;
-    font-size: .8em;
+    font-size: .7em;
     padding-bottom: 2em;
+}
+.footer .site-width{
 }
 .footer blockquote {
     color: #34495e;
